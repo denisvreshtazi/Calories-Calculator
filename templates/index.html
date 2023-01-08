@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/main.css">
+    <title>Calories calculation</title>
+    <style>
+    body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+</head>
+
+<body background="static/photo.jpg">
+    <h2>Calories calculation</h2>
+    <p><h4 style="text-align:center">This web app is useful to calculate how many calories you should take today. </h4></p>
+    <form action={{url_for('calories_form_page')}}>
+        <input type="submit" value="Go to the calculation page" />
+    </form>
+</body>
+</html>
+
